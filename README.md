@@ -3,7 +3,7 @@
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Inhoudsopgave
+## Inhoudsopgave 📚
 
   * [Beschrijving](#beschrijving)
   * [Gebruik](#gebruik)
@@ -12,23 +12,23 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving
+## Beschrijving 📑
 <!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Gebruik
+## Gebruik 📱
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 
-## Kenmerken
+## Kenmerken 🛠️
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
-## Installatie
+## Installatie 🛠️
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
 
-## Bronnen
+## Bronnen 🌐
 
-## Licentie
+## Licentie 🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
