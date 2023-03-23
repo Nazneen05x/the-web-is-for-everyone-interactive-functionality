@@ -15,6 +15,7 @@ server.set('views', './views')
 server.use(express.json())
 server.use(express.urlencoded({ extended: true }))
 
+
 //hier komen de routes
 
 
