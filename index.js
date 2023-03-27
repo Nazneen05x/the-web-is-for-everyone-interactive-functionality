@@ -38,7 +38,7 @@ server.post('/', function (req, res, next) {
   req.body.herinnering = [req.body.herinnering + ':00Z']
   console.log(req.body)
 
-
+//
   postJson(url + '/notities', req.body).then((data) => {
     console.log(JSON.stringify(data))
     let newNotitie = { ... req.body }
@@ -47,6 +47,7 @@ server.post('/', function (req, res, next) {
       res.redirect('/new') 
       // TODO: squad meegeven, message meegeven
       // TODO: Toast meegeven aan de homepagina
+      
     } else {
       const errormessage = `${data.message}: Mogelijk komt dit door de slug die al bestaat.`
       const newdata = { error: errormessage, values: newData }
