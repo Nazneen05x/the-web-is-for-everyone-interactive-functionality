@@ -11,11 +11,16 @@
     --Blue: #73AEA6;
 }
 
-
+/* body{
+    height: 100vw;
+    position: relative;
+} */
 
 
 
 /* -----HEADER/MENU STYLING----- */
+
+
 
 .aankoop_banner{
     background-color: var(--yellow);
@@ -56,4 +61,75 @@ ul {
 .icon{
     padding-right: 25em;
     margin-top: 3.5em;
+}
+
+.searchicon{
+    position: absolute;
+    width: 16px;
+    height: 21px;
+    margin-left: -1em;
+}
+
+.pepijn{
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: 3.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----FOOTER STYLING----- */
+
+footer{
+    /* position: fixed; */
+    margin-bottom: 1em;
+}
+
+.patroon{
+    width: 366px;	
+    height: 331px;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+
+}
+
+
+.ul_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 14px;
+    margin: 0.5em;
+}
+
+.footer_ul{
+    display: flex;
+    margin: 2em;
+	justify-content: center;
+    position: absolute;
+    bottom: -1rem;
+    left: calc(50% - 246px);
+    justify-content: center;
+}
+
+.color{
+    color: var(--Blue);
+    font-weight: 500;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 13px;
 }
