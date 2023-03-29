@@ -44,7 +44,7 @@ server.post('/', function (req, res, next) {
     let newNotitie = { ... req.body }
 
     if (data.success) {
-      res.redirect('/new') 
+      res.redirect('/') 
       // TODO: squad meegeven, message meegeven
       // TODO: Toast meegeven aan de homepagina
       
