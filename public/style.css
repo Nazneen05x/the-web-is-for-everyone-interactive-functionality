@@ -10,13 +10,9 @@
     --Geel: #F4EB34;
     --Blauw: #73AEA6;
     --Lichtblauw: #DAEEEE;
-    --Grey: #fafafa;
+    --Grijs: #fafafa;
 }
 
-/* body{
-    height: 100vw;
-    position: relative;
-} */
 
 
 
@@ -25,7 +21,7 @@
 
 
 
-h1{
+h1 {
     margin-top: -2em;
     margin-bottom: 2rem;
     margin-left: 6em;
@@ -139,7 +135,7 @@ ul {
 
 /* FORMULIER */
 
-.container{
+.container {
     margin-bottom: 1rem;
 }
 
@@ -152,7 +148,7 @@ form {
     visibility: hidden;
 }
 
-.form-visibility{
+.form-visibility {
     visibility: visible;
 }
 
@@ -170,13 +166,13 @@ input {
     margin: 1em;
 }
 
-.title{
-    margin-top:1rem; 
+.title {
+    margin-top: 1rem;
 }
 
 
-.herinnering{
-    margin-top:1rem;
+.herinnering {
+    margin-top: 1rem;
 }
 
 .opslaan-form {
@@ -242,30 +238,60 @@ footer {
 
 /* MOBILE VERSIE */
 
-@media screen and (max-width: 50em){
+@media screen and (max-width: 50em) {
+
+    /* MENU STYLING */
+
+    /* GELE BANNER */
+    .aankoop_banner {
+        background-color: var(--Geel);
+        margin: -5em;
+        position: relative;
+    }
+
+    .verzending_banner {
+        margin-left: 5rem;
+        margin-right: 1em;
+        line-height: 1.5em;
+        margin-top: 5em;
+        font-size: 15px;
+    }
+
+    /* MENU */
+
+    ul,
+    .icon {
+        display: none;
+    }
 
 
+    .viniminilogo {
+        width: 100px;
+        margin-top: 6em;
+        margin-left: 1em;
+        position: absolute;
+    }
 
 
-/* FOOTER STYLING */
+    /* FOOTER STYLING */
 
-.footer_ul{
-    display: flex;
-    margin: 2em;
-    position: absolute;
-    bottom: 22rem;
-    left: calc(50% - 251px);
-    justify-content: center;
-    flex-direction: column;
-}
+    .footer_ul {
+        display: flex;
+        margin: 2em;
+        position: absolute;
+        bottom: 22rem;
+        left: calc(50% - 251px);
+        justify-content: center;
+        flex-direction: column;
+    }
 
 
-.copyright{
-    position: absolute;
-    bottom: 22rem;
-    right: 7rem;
-    font-size: 13px;
-}
+    .copyright {
+        position: absolute;
+        bottom: 22rem;
+        right: 7rem;
+        font-size: 13px;
+    }
 
 
 }
