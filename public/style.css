@@ -10,6 +10,7 @@
     --Geel: #F4EB34;
     --Blauw: #73AEA6;
     --Lichtblauw: #DAEEEE;
+    --Grey: #fafafa;
 }
 
 /* body{
@@ -234,4 +235,34 @@ footer {
     bottom: 1rem;
     right: 1rem;
     font-size: 13px;
+}
+
+
+/* MEDIA QUERY  */
+
+/* MOBILE VERSIE */
+
+@media screen and (max-width: 20em){
+
+
+
+
+/* FOOTER STYLING */
+
+
+    
+
+.footer_ul {
+    display: flex;
+    margin: 2em;
+    justify-content: center;
+    position: absolute;
+    bottom: 17rem;
+    left: calc(50% - 246px);
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Geel);
+}       
+
+
 }

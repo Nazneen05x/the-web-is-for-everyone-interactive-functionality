@@ -28,6 +28,7 @@ server.get('/', (request, response) => {
   })
 })
 
+
 // Dit is de data uit whois api // Met deze stuk code willen we de data roepen uit de whois api?
 server.post('/', function (req, res, next) {
   const baseurl = "https://api.vinimini.fdnd.nl/api/v1/"
