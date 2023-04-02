@@ -242,27 +242,30 @@ footer {
 
 /* MOBILE VERSIE */
 
-@media screen and (max-width: 20em){
+@media screen and (max-width: 50em){
 
 
 
 
 /* FOOTER STYLING */
 
-
-    
-
-.footer_ul {
+.footer_ul{
     display: flex;
     margin: 2em;
-    justify-content: center;
     position: absolute;
-    bottom: 17rem;
-    left: calc(50% - 246px);
+    bottom: 22rem;
+    left: calc(50% - 251px);
     justify-content: center;
     flex-direction: column;
-    background-color: var(--Geel);
-}       
+}
+
+
+.copyright{
+    position: absolute;
+    bottom: 22rem;
+    right: 7rem;
+    font-size: 13px;
+}
 
 
 }
