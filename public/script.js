@@ -15,3 +15,6 @@ function popup(){
     function shoutdown(){
     form.classList.remove("form-visibility")
     }
+// js enabled (beschikbaar)
+
+document.body.classList.add('js-enabled')
