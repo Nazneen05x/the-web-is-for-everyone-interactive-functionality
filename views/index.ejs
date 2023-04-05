@@ -11,8 +11,28 @@
             <p class="notities">Notities</p>
 
             <img class="iconcross" src="/cross.svg" alt="iconcross">
+           
+            <% notities.forEach(notitie => { %>
+     
+                <article class="notitie-container">
+                
+                    <h2>Notities  <span class="datum"><%= notitie.datum %></span></h2>
+                    <h3><%= notitie.titel %></h3>
+                    <p><%= notitie.beschrijving %></p>            
+                </article>
+            <% }); %>
+            
 
         </div> 
+        <div>
+            
+            <div class="colorbackground"></div>
+            <div class="colorbackground"></div>
+            <img class="productenimg" src="/producten.webp" alt="">
+
+      
+
+        </div>
 
        <div>
 
@@ -45,11 +65,7 @@
 
         </div> 
  
-        <div>
-            <img class="productenimg" src="/producten.webp" alt="">
-            <div class="colorbackground"></div>
-
-        </div>
+ 
 
 
     </main> 

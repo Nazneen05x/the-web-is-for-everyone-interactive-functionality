@@ -63,8 +63,6 @@ server.post('/', function (req, res, next) {
 
 
 
-
-
 // Stel het poortnummer in en start express
 server.set('port', process.env.PORT || 8000)
 server.listen(server.get('port'), function () {
