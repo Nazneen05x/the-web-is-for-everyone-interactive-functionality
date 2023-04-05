@@ -1,7 +1,9 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# Homepagina Vini Mini 🥜  (notities)
+
+<img width="900" alt="Scherm­afbeelding 2023-04-05 om 23 18 50" src="https://user-images.githubusercontent.com/112861261/230214026-87e31916-5c49-4d66-afb9-28e0fc776ebe.png">
+
 
 ## Inhoudsopgave 📚
 
@@ -13,9 +15,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📑
-<!-- In de Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
 
 ## Gebruik 📱
 <!--Bij Gebruik staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
