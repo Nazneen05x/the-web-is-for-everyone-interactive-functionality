@@ -55,7 +55,7 @@ nav {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 1em;
+    /* gap: 1em; */
     font-family: montserrat, sans-serif;
     margin-top: 64px;
     margin-left: 10em;
